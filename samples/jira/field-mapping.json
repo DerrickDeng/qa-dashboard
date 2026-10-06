@@ -1,0 +1,15 @@
+{
+  "_comment": "Which JIRA field carries each dashboard concept. These ids match the local mock JIRA. For a real instance, look yours up at <jira>/rest/api/2/field and replace them.",
+  "severity": "customfield_10050",
+  "found_phase": "customfield_10051",
+  "root_cause": "customfield_10052",
+  "component": "components",
+  "bug_issue_types": ["Bug", "Defect", "缺陷", "故障"],
+  "severity_from_priority": {
+    "Highest": "Blocker",
+    "High": "Critical",
+    "Medium": "Major",
+    "Low": "Minor",
+    "Lowest": "Trivial"
+  }
+}
