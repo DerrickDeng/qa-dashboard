@@ -5,7 +5,7 @@
 #   scripts/push_playwright_report.sh [report-dir] [options]
 #
 #   report-dir     the playwright-html folder
-#                  default: $PLAYWRIGHT_REPORT_DIR, else ../playwright-UI-auto-v2/reports/playwright-html
+#                  default: $PLAYWRIGHT_REPORT_DIR, else ../ai-native-ui-automation/reports/playwright-html
 #   --app CODE     application code, e.g. QAD   (default: $QA_APPLICATION_CODE)
 #   --region hk    only needed when the project name is not region-env
 #   --env sit      only needed when the project name is not region-env
@@ -21,7 +21,7 @@ REPO_ROOT="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 API="${QA_API_BASE_URL:-http://127.0.0.1:8001}"
 WEB="${QA_WEB_BASE_URL:-http://127.0.0.1:5174}"
 
-REPORT_DIR="${PLAYWRIGHT_REPORT_DIR:-$REPO_ROOT/../playwright-UI-auto-v2/reports/playwright-html}"
+REPORT_DIR="${PLAYWRIGHT_REPORT_DIR:-$REPO_ROOT/../ai-native-ui-automation/reports/playwright-html}"
 APP="${QA_APPLICATION_CODE:-}"
 REGION=""
 ENVIRONMENT=""

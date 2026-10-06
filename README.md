@@ -32,7 +32,7 @@ removes it.
 ### Push your own test report
 
 ```bash
-cd ~/repository/playwright-UI-auto-v2 && npm test -- --project=hk-sit
+cd ~/repository/ai-native-ui-automation && npm test -- --project=hk-sit
 cd ~/repository/qa-dashboard && make push-report APP=QAD
 ```
 

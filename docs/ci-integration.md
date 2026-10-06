@@ -42,7 +42,7 @@ messages.
 
 ```bash
 # Run the tests as usual in your test repo
-cd ~/repository/playwright-UI-auto-v2
+cd ~/repository/ai-native-ui-automation
 npm test -- --project=hk-sit
 
 # Push from the dashboard repo
@@ -50,7 +50,7 @@ cd ~/repository/qa-dashboard
 make push-report APP=QAD
 ```
 
-`make push-report` reads `../playwright-UI-auto-v2/reports/playwright-html` by
+`make push-report` reads `../ai-native-ui-automation/reports/playwright-html` by
 default. If your report is somewhere else:
 
 ```bash
